@@ -11,97 +11,112 @@
 <!-- HEADER -->
 <header>
     <h1>Next-Gen Coders Joint</h1>
-    <p class="tagline">Learn Coding, Think AI</p>
+    <p class="tagline">Learn Coding, Think AI • Since 2024</p>
 </header>
 
-<!-- HERO SECTION -->
+<!-- HERO -->
 <section class="hero">
-    <h2>Industry-Style IT Training</h2>
+    <h2>Industry-Ready IT Training</h2>
     <p>
-        We don’t teach like regular classes.  
-        We train you the same way **companies train their employees (Trainings / KTs)** —
-        practical, task-based, and real-time focused.
+        Training provided by <strong>software engineers currently working in IT companies</strong>.
+        Learn how real IT offices work through live coding, real-time projects,
+        and professional office culture — not regular classroom teaching.
     </p>
-    <a href="https://forms.gle/j4SLwJyztqNevgxy8" target="_blank" class="btn">
-        Register Here
-    </a>
+    <button class="btn" onclick="openPopup()">Free Registration</button>
 </section>
 
-<!-- ABOUT TRAINING -->
+<!-- ABOUT -->
 <section class="section">
-    <h2>How Our Training Is Different</h2>
+    <h3>Why Choose Next-Gen Coders Joint?</h3>
     <p>
-        At <strong>Next-Gen Coders Joint</strong>, training is designed to simulate
-        real IT company environments. You will learn how to understand requirements,
-        write clean code, work on tasks, and build complete applications — just like
-        a software developer in a company.
+        We provide training exactly like <strong>company Trainings / KTs</strong>.
+        Students learn coding, problem solving, teamwork basics,
+        task handling, and how projects are developed in real IT companies.
     </p>
 </section>
 
-<!-- REAL TIME PROJECTS -->
+<!-- PROJECTS -->
 <section class="section light">
-    <h2>Real-Time Projects You Will Work On</h2>
+    <h3>Real-Time Projects You Will Build</h3>
     <ul>
-        <li>🎮 Developing Games (Logic, UI & User Interaction)</li>
-        <li>🏦 Banking Systems (Account, Transactions, Security basics)</li>
-        <li>🎟 Online Ticket Booking Portals</li>
-        <li>🛒 Mini Web Applications</li>
-        <li>📊 Data Handling & Reports</li>
+        <li>🎮 Game Development (Snake, Quiz, Logic Games)</li>
+        <li>🏦 Banking Application (Accounts, Transactions)</li>
+        <li>🎟 Online Ticket Booking Portal</li>
+        <li>🛒 E-Commerce App Development (Products, Cart, Checkout)</li>
+        <li>🏥 Hospital Appointment Booking System</li>
+        <li>📚 Student Management System</li>
+        <li>🚕 Cab Booking Application (like Ola/Uber flow)</li>
+        <li>📊 Data Analysis & Reports Dashboard</li>
     </ul>
 </section>
 
 <!-- COURSES -->
 <section class="section">
-    <h2>Courses We Offer</h2>
+    <h3>Courses Offered</h3>
     <div class="cards">
         <div class="card">
-            <h3>Python Programming</h3>
-            <p>Strong fundamentals, logic building, and project-based learning.</p>
+            <h4>Python Programming</h4>
+            <p>Strong foundation with real-time applications.</p>
         </div>
         <div class="card">
-            <h3>AI Foundation</h3>
-            <p>Understanding Artificial Intelligence concepts with real-world examples.</p>
+            <h4>AI Foundation</h4>
+            <p>AI basics explained with practical use-cases.</p>
         </div>
         <div class="card">
-            <h3>R Programming</h3>
-            <p>Data analysis basics and practical use cases.</p>
+            <h4>R Programming</h4>
+            <p>Data analysis and real-world datasets.</p>
         </div>
     </div>
 </section>
 
-<!-- FOR STUDENTS -->
+<!-- OFFICE CULTURE -->
 <section class="section light">
-    <h2>Perfect for Students</h2>
+    <h3>Office Culture & IT Work Style</h3>
     <p>
-        Whether you are from school, diploma, or degree background,
-        our sessions are interactive, beginner-friendly, and focused on
-        building confidence to work in real IT projects.
+        Learn how to understand requirements, write clean code,
+        communicate professionally, work with deadlines,
+        and confidently deliver projects like an IT professional.
     </p>
-</section>
-
-<!-- REGISTER -->
-<section class="section" id="register">
-    <h2>Register for Free Demo Class</h2>
-    <p>
-        Click below to register. Our team will contact you after registration.
-    </p>
-    <a href="https://forms.gle/j4SLwJyztqNevgxy8" target="_blank" class="btn">
-        Register Now
-    </a>
 </section>
 
 <!-- CONTACT -->
-<section class="section light">
-    <h2>Contact Us</h2>
-    <p><strong>📞 Phone:</strong> 9108429964 (WhatsApp & Call)</p>
-    <p><strong>📧 Email:</strong> nextgencodersjoint@gmail.com</p>
-    <p><strong>💻 Mode:</strong> Online Classes</p>
+<section class="section contact">
+    <h3>Contact Us</h3>
+    <p>📞 9108429964 (WhatsApp & Call)</p>
+    <p>📧 nextgencodersjoint@gmail.com</p>
+    <p>💻 Online Classes Available</p>
 </section>
 
 <!-- FOOTER -->
 <footer>
-    <p>© 2026 Next-Gen Coders Joint | Learn Coding, Think AI</p>
+    <p>© Since 2024 • Next-Gen Coders Joint • Learn Coding, Think AI</p>
 </footer>
+
+<!-- WhatsApp Button -->
+<a href="https://wa.me/919108429964" class="whatsapp-float" target="_blank">💬</a>
+
+<!-- POPUP REGISTRATION -->
+<div id="popup" class="popup">
+    <div class="popup-content">
+        <span class="close" onclick="closePopup()">×</span>
+        <h3>Free Registration</h3>
+        <iframe
+            src="https://forms.gle/j4SLwJyztqNevgxy8"
+            width="100%"
+            height="420"
+            frameborder="0">
+        </iframe>
+    </div>
+</div>
+
+<script>
+function openPopup() {
+    document.getElementById("popup").style.display = "flex";
+}
+function closePopup() {
+    document.getElementById("popup").style.display = "none";
+}
+</script>
 
 </body>
 </html>
